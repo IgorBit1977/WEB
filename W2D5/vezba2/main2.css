@@ -1,0 +1,43 @@
+ul > li {
+    color:darkblue;
+    text-shadow: 7px 7px 8px rgba(113, 119, 172, 0.73);
+
+};
+a{  
+    text-decoration: none;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:active{
+    color:blue;
+}
+li:hover, a:hover{
+    color:green;
+}
+p.jedan , p.dva{
+    color:darkblue;
+    text-shadow: 7px 7px 8px rgba(113, 119, 172, 0.73);
+}
+.jedan{
+    text-align: left;
+    color:green;
+    letter-spacing: 5px;
+}
+.dva{
+    text-align: right;
+    line-height: 200%;
+}
+.tri{
+    text-align: center;
+}
+
+    p:first-letter {
+        font-size:200%;
+        color:red;
+    } 

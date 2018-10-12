@@ -1,0 +1,75 @@
+
+@font-face {
+    src: url(Charmonman-Regular.ttf);
+    src: url(Charmonman-Bold.ttf);
+    font-family: "Char";
+}
+body {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color {
+    color: white;
+    background-color: darkslategray;
+    opacity: 0.8;
+    font-family: 'Char', Courier, monospace;
+    font-size: 18px;
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+.rgb {
+    color: rgb(0, 0, 0, 0.5);
+    background-color: rgba(255,200,2, 0.5);
+    font-family: 'Open Sans Condensed', Times, serif; 
+    font-style: oblique;   
+}
+
+.hex{
+    color: #fff;
+    background-color: #333;
+    font-family: 'Indie Flower', Helvetica, sans-serif;    
+}
+
+.color q {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rgb q {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hex q {
+    font-family: fantasy;
+}
+
+.hex span {
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Char;
+}
+
+tr td:nth-child(1) {
+    background-color: aliceblue;
+} 
+
+tr td:nth-child(2) {
+    background-color: hotpink;
+} 
+
+tr td:nth-child(3) {
+    background-color: yellowgreen;
+} 
+
+tr td:nth-child(4) {
+    background-color: royalblue;
+} 
+
+tr td:nth-child(5) {
+    background-color: darkkhaki;
+} 
+
