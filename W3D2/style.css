@@ -1,0 +1,55 @@
+#unList1 {
+
+    list-style-type: circle;
+}
+
+
+
+#unList2
+{
+
+    list-style-type: square;
+color: red;
+}
+
+#olList1  {
+    list-style-type: upper-alpha;
+}
+
+#olList2 {
+    list-style-type:lower-roman;
+}
+#slika { width:200px;
+    list-style-image:url()
+}
+#inside {
+    width:200px;
+    list-style-position: inside;
+    list-style-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNCvgv6Tjj12-wiVVW5mOWshmoEkNp6CV75Oh88UWJ4MYxNMQ)
+}
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead {
+    background-color: red;
+    
+}
+ 
+table img {
+    width:100px;
+}
+
+td{
+    padding:10px;
+}
+
+tr:hover{background-color: yellow;}
+tr:nth-of-type(even){
+    background-color:#ccc;
+    
+}
+tr:nth-of-type(even):hover {
+    background-color: orange;
+}

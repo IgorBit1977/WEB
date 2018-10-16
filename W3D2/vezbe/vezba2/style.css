@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+
+span {
+  color: orange;
+}
+
+div {
+  height: 400px; 
+  width: 250px;
+  margin: 20px auto;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 30px;
+  -webkit-box-shadow: 46px 36px 61px 1px rgba(0,0,0,0.47);
+  -moz-box-shadow: 46px 36px 61px 1px rgba(0,0,0,0.47);
+  box-shadow: 46px 36px 61px 1px rgba(0,0,0,0.47);
+}
+
+label {
+  display: block;
+}
+
+input {
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 80%; 
+}
+input:focus{
+  background-color: antiquewhite;
+}
+
+#dugmeZaSubmit {
+  display: block;
+  background-color: red;
+  color: white;
+  margin-top: 40px;
+}
