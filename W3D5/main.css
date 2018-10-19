@@ -1,0 +1,15 @@
+/* body {
+  background-image: url(./patern.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+} */
+
+body {
+    background-image: url(./prava.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
+    color: white;
+}
+

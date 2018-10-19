@@ -1,0 +1,18 @@
+img:nth-of-type(1) {
+    display: block;
+    height: 200px;
+    margin-right:0;
+    margin-left: auto;
+}
+
+img:nth-of-type(2) {
+    display: block;
+    width: 200px;
+    margin:0 auto;
+}
+
+img:nth-of-type(3) {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
