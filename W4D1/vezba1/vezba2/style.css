@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+header {
+  margin: 50px auto;
+}
+img{
+    width: 90px;
+    float:left;
+    display:block;
+    
+}
+.levo {
+  width: 400px;
+  text-align: left;
+  padding: 10px;
+  float: left;
+}
+
+.desno {
+  width: 480px;
+  text-align: left;
+  padding: 20px;
+  float: right;
+}
+
+div {
+  border-left: 2px solid black;
+  width: 500px;
+  float: right;
+}
+
+header h4 {
+  padding-bottom: 30px;
+  margin-left: 80px;
+  padding-left:30px;
+}
+header h1 {
+    font-size:2em;
+    padding-bottom:10px;
+    margin-left:80px;
+}
