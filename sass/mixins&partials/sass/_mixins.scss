@@ -1,0 +1,6 @@
+
+@mixin text-shadow($color, $fontColor,$velikiFont) {
+    text-shadow: 2px 2px 5px $color;
+    color:$fontColor;
+    font-size:$velikiFont;
+}

@@ -1,0 +1,9 @@
+@import '_variables';
+@import '_mixins';
+
+
+
+
+p{
+    @include text-shadow($colorBlue, $colorRed, $velikiFont);
+}
