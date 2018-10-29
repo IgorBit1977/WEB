@@ -5,5 +5,5 @@
 
 
 p{
-    @include text-shadow($colorBlue, $colorRed, $velikiFont);
+    @include text-shadow($colorBlue,  $velikiFont);
 }

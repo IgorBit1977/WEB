@@ -1,0 +1,27 @@
+$width : 300px;
+
+.border{
+    border:solid 5px white;
+    width: 400px;
+    padding: 50px;
+
+}
+
+.lorem{
+    @extend .border;
+    border-color: red;
+    width: ($width/3px) * 0.5%;
+}
+
+.lorem2{
+    @extend .border;
+    border-color:blue;
+    width: ($width/6px) * 1.2%;
+}
+
+.lorem3{
+    @extend .border;
+    border-color:green;
+    width: (($width+50px) / 5px) * 1%; 
+}
+

@@ -1,0 +1,18 @@
+.border, .lorem, .lorem2, .lorem3 {
+  border: solid 5px white;
+  width: 400px;
+  padding: 50px; }
+
+.lorem {
+  border-color: red;
+  width: 50%; }
+
+.lorem2 {
+  border-color: blue;
+  width: 60%; }
+
+.lorem3 {
+  border-color: green;
+  width: 70%; }
+
+/*# sourceMappingURL=main.css.map */
