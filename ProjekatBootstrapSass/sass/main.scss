@@ -1,0 +1,92 @@
+@import "mixins";
+@import "varijables";
+
+header {
+  background: $color;
+  text-align: center;
+  img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+  h1 {
+    display: inline;
+    color: $fontColors1;
+    font-size:$fontSize1;
+    border-bottom: 2px solid white;
+     padding-bottom: 10px;
+     font-weight: 700;
+  }
+
+  p {
+    font-size: $fontSize2;
+    font-weight: 400;
+    color: $fontColors1;
+    padding-bottom: 30px;
+    margin-top:20px;
+  }
+}
+
+//  @media (min-width:)
+
+section {
+    p {
+
+    }
+}
+
+section img {
+  padding-bottom: 10px;
+}
+.firstImgBottom {
+  margin-top: 10px;
+}
+.firstSectionBottom {
+  margin-top: 10px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 10%;
+}
+main h2 {
+  font-size: $fontSize1;
+  border-bottom: 3px solid black;
+  padding-bottom: 5%;
+}
+.sectionAbout {
+  background-color: $color;
+text-align: left;
+}
+.greenH h3 {
+  color: $fontColors1;
+  font-size: $fontSize1;
+    text-align: center;
+    padding-top:20px;
+}
+.sectionAbout p {
+  color: $fontColors1;
+  font-size: $fontSize2;
+  padding-bottom:20px;
+  padding-top:10px;
+}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+    }
+.sectionFooter {
+    text-align: center;
+    background-color:$color2;
+    h4 {
+        color:$fontColors1;
+    }
+    p {
+        color:$fontColors1;
+    }
+}
