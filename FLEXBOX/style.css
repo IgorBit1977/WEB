@@ -1,0 +1,42 @@
+.parent {
+   display:flex;
+   width:650px;
+   flex-wrap: wrap;
+
+}
+
+.parent div {
+    width:200px;
+    height:200px;
+    color:white;
+    display:flex;
+}
+p {
+    margin:auto;
+}
+
+.child1{
+    background-color: tan;
+   order:1;
+}
+.child2{
+    background-color:orange;
+    order:4;
+}
+.child3{
+    background-color:black;
+    order:2;
+}
+.child4{
+    background-color:lightcoral;
+    order:5;
+}
+.child5{
+    background-color: grey;
+    order:3;
+
+}
+.child6{
+    background-color:orange;
+    order:6;
+}
