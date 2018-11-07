@@ -1,0 +1,26 @@
+.container{
+    border: 2px solid black;
+}
+.wrapper{
+    border: 2px solid black;
+    padding-bottom: 40px;
+}
+h1{
+    text-align: center;
+}
+.button{
+    width: 100%;
+    background: rgb(71, 187, 71);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.selectGenre{
+    width: 100%;
+}
+.counter{
+    text-align: right
+}
+.text p{
+    background: rgb(207, 200, 200);
+    
+}

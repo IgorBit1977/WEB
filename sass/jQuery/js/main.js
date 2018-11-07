@@ -6,5 +6,4 @@ $('li:last').addClass('active');
 // $('li.active').find('li-middle').addClass('background');
 var $listItems = $('li');
 var middle =($listItems.length - 1)/2;
-$listItems.eq(middle).addClass('background');
-
+$listItems.eq(middle).addClass('background'); 
