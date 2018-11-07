@@ -1,0 +1,10 @@
+.text {
+    text-transform: uppercase;
+}
+
+.active {
+    color: red;
+}
+.background{
+    background-color: yellow;
+}
