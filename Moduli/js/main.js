@@ -1,4 +1,5 @@
 var dataModule = (function() {
+
   var data = {
     movies: []
   };
@@ -11,19 +12,21 @@ var dataModule = (function() {
   //validate input
 
   //createMovie
-
-  //addMovie
-  Movie.prototype.getInfo = function() {
-    return this.name + ", " + this.length;
-  };
-
   function createMovie(name, length, genre) {
     return Movie(name, length, genre);
   }
+  //addMovie
   function addMovie(movie) {
     data.movies.push(movie);
   }
 
+
+  Movie.prototype.getInfo = function() {
+    return this.name + ", " + this.length;
+  };
+
+  
+  
   return {
     createMovie: createMovie,
     addMovie: addMovie
@@ -31,11 +34,14 @@ var dataModule = (function() {
 })();
 
 var uiModule = (function() {
+
   var $titleInput = document.querySelector(".movieTitle");
   var $lengthInput = document.querySelector(".movieLength");
   var $genreSelect = document.querySelector(".selectGenre");
   var $movieList = document.querySelector(".counter");
 
+
+  //colectFormInput
   function collectFormInput() {
     var movieTitle = $titleInput.value;
     var movieLength = $lengthInput.value;
@@ -49,11 +55,14 @@ var uiModule = (function() {
     };
   }
 
+//displayMovie
   function displayMovie(movie) {
     // if(movie instanceof Movie){
     $movieList.innerHTML += movie.getInfo() + "<br/>";
     // }
   }
+
+  // resetForm
 
   return {
     collectFormInput: collectFormInput,
@@ -62,8 +71,10 @@ var uiModule = (function() {
 })();
 
 var controler = (function(ui, data) {
+
   var $addMovie = document.querySelector(".button");
   $addMovie.addEventListener("click", function(event) {
+
     //collect form data
     var movieObj = ui.collectFormInput();
     console.log(movieObj);
@@ -79,5 +90,7 @@ var controler = (function(ui, data) {
     //display movie
     ui.displayMovie(movie);
     //reset form
+
+    
   });
 })(uiModule, dataModule);
