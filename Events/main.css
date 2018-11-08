@@ -1,0 +1,17 @@
+div {
+  width: 100%;
+  background-color: grey;
+  height: 1000px;
+  padding-top: 20%;
+}
+.active {
+  background-color: darkblue;
+}
+.firstButton {
+  background-color: black;
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  color: white;
+  display: block;
+}
