@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    width: 960px;
+    margin: 0 auto;
+}
+img{
+    width:33%;
+
+}
+
+.selected {
+    border:2px solid red;
+}
